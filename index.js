@@ -75,36 +75,7 @@ async function run() {
     
     // update profile
     
-    // app.patch('/users/:id', async (req, res) => {
-    //   try {
-    //     const user = req.body;
-    //     const id = req.params.id;
-    //     const filter = { _id: new ObjectId(id) };
-    //     const updatedDoc = {
-    //       $set: {
-    //         name: data.name,
-    //     email: data.email,
-    //     phone: data.number,
-    //     gender: data.gender,
-    //     hear: data.hear,
-    //     city: data.city,
-    //     state: data.state,
-    //     role: 'users',
-    //     photo: data.photoURL,
-    //       },
-    //     };
-    //     const result = await userCollection.updateOne(filter, updatedDoc);
-    
-    //     if (result.modifiedCount > 0) {
-    //       res.status(200).json({ updated: true });
-    //     } else {
-    //       res.status(404).json({ updated: false });
-    //     }
-    //   } catch (error) {
-    //     console.error('Error updating user:', error);
-    //     res.status(500).json({ error: 'Internal Server Error' });
-    //   }
-    // });
+ 
 
     // ...
 
